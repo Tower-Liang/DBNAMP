@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "candidates": [
+    {
+      "id": "dbaasp-1988-x-candidate-dorn",
+      "source": "DBAASP",
+      "source_id": "1988",
+      "sequence_raw": "akklxhalhxallalxhlahxllakk",
+      "raw_token": "X",
+      "candidate_monomer_id": "D-ORN",
+      "candidate_status": "pending_external_confirmation",
+      "candidate_evidence_source": "raw_nnaa_tokens",
+      "candidate_reason": "Local acquisition metadata includes nnaa_tokens=[\"D-ORN\"], but no external source-level confirmation was found; keep as candidate only."
+    }
+  ]
+}
