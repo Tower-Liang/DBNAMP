@@ -1,4 +1,0 @@
-biopython>=1.81
-numpy>=1.24
-pandas>=2.0
-rdkit>=2024.03.2

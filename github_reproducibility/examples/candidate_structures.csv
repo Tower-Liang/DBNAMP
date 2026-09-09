@@ -1,3 +1,0 @@
-id,smiles,evidence_score,structure_confidence
-pep_1,CC(C)C(N)C(=O)NCC(=O)NCC(=O)N,0.8,1.0
-pep_3,CC(C)C(N)C(=O)NCC(=O)NCC(=O)N,0.4,0.7
