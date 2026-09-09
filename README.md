@@ -69,10 +69,3 @@ file is a configuration artifact derived from the DBNAMP preparation workflow;
 external database contents and literature-derived records are not relicensed by
 this repository.  Users should obtain and cite each upstream database directly.
 
-## Citation
-
-Please cite the DBNAMP manuscript and the versioned GitHub release associated
-with the manuscript revision.  A machine-readable `CITATION.cff` is included.
-
-The correspondence between the internal revision scripts and this public
-reference implementation is listed in `WORKFLOW_MAPPING.md`.
