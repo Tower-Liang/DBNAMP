@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+title: DBNAMP reproducibility workflow
+message: Please cite the DBNAMP manuscript and this software release.
+type: software
+authors:
+  - name: DBNAMP authors
+date-released: 2026-09-07
+license: MIT
+version: 1.0.0
