@@ -1,0 +1,7 @@
+{
+  "rows": 2842,
+  "positive": 1421,
+  "negative": 1421,
+  "selection": "DBNAMP PDB-linked audit IDs + lexicographically first eligible UniProt reconstructed candidates",
+  "negative_semantics": "presumed-negative, not experimentally confirmed inactive"
+}
