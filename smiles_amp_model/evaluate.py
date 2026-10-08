@@ -4,14 +4,11 @@ from __future__ import annotations
 import argparse
 import json
 from pathlib import Path
-from typing import Dict, Tuple
+from typing import Dict
 
 import numpy as np
 import pandas as pd
 from sklearn.metrics import accuracy_score, confusion_matrix, f1_score, matthews_corrcoef, roc_auc_score
-
-
-REFERENCE = {"accuracy": 0.7525, "f1": 0.7797, "roc_auc": 0.819, "mcc": 0.523}
 
 
 def metric_at_threshold(labels: np.ndarray, probabilities: np.ndarray, threshold: float = 0.5) -> Dict[str, object]:
@@ -53,8 +50,6 @@ def evaluate_predictions(frame: pd.DataFrame, threshold: float = 0.5, n_boot: in
     result = metric_at_threshold(labels, probabilities, threshold)
     result["confidence_interval_95"] = stratified_bootstrap(labels, probabilities, threshold, n_boot, seed)
     result["bootstrap"] = {"method": "stratified percentile bootstrap", "n_boot": n_boot, "seed": seed}
-    result["paper_reference_values"] = REFERENCE
-    result["reference_note"] = "The supplied paper values are retained as reference targets; they are not substituted for measured predictions."
     return result
 
 
